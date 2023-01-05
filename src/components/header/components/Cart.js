@@ -14,7 +14,7 @@ const Cart = ({ count, cartOpen, setCartOpen, itemsInBox, setItemsInBox }) => {
 				src={cart}
 				alt="cart"
 			/>
-			{count ? (
+			{itemsInBox.length > 0 ? (
 				<Text
 					fontSize={'12px'}
 					position="relative"
@@ -29,7 +29,7 @@ const Cart = ({ count, cartOpen, setCartOpen, itemsInBox, setItemsInBox }) => {
 					alignItems={'center'}
 					justifyContent="center"
 				>
-					{count}
+					{itemsInBox.length}
 				</Text>
 			) : (
 				''
