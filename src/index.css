@@ -1,0 +1,18 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.carousel .thumb.selected,
+.carousel .thumb:hover {
+	border: 2px solid hsl(26, 100%, 55%) !important;
+}
+
+.carousel.carousel-slider .control-arrow:hover {
+	background: none !important;
+}
